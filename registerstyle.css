@@ -1,0 +1,96 @@
+/* ===========================
+   Register Page
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+.register-container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.register-box{
+    width:100%;
+    max-width:450px;
+    background:#ffffff;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.register-box h2{
+    text-align:center;
+    color:#222;
+    margin-bottom:8px;
+    font-size:30px;
+}
+
+.register-box p{
+    text-align:center;
+    color:#777;
+    margin-bottom:30px;
+}
+
+.input-group{
+    margin-bottom:20px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+    color:#333;
+}
+
+.input-group input{
+    width:100%;
+    padding:13px 15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:15px;
+    outline:none;
+    transition:.3s;
+}
+
+.input-group input:focus{
+    border-color:#2f80ed;
+    box-shadow:0 0 5px rgba(47,128,237,.3);
+}
+
+.register-btn{
+    width:100%;
+    padding:14px;
+    background:#2f80ed;
+    color:#fff;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.register-btn:hover{
+    background:#1565d8;
+}
+
+@media (max-width:480px){
+
+    .register-box{
+        padding:30px 20px;
+    }
+
+}

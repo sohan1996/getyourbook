@@ -1,0 +1,370 @@
+/* ==============================
+   RESET
+============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==============================
+   BODY
+============================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    min-height: 100vh;
+
+    background: linear-gradient(
+        to bottom,
+        #49328b 0%,
+        #3e6b9c 55%,
+        #3b9bb0 100%
+    );
+
+    color: white;
+}
+
+
+/* ==============================
+   CONTACT SECTION
+============================== */
+
+.contact-section {
+    width: 100%;
+
+    min-height: 80vh;
+
+    padding: 70px 20px;
+}
+
+
+/* ==============================
+   CONTAINER
+============================== */
+
+.contact-container {
+    width: 100%;
+    max-width: 860px;
+
+    margin: auto;
+}
+
+
+/* ==============================
+   TITLE
+============================== */
+
+.contact-container h1 {
+    text-align: center;
+
+    font-size: 78px;
+
+    font-weight: 300;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 10px;
+}
+
+
+/* ==============================
+   SUBTITLE
+============================== */
+
+.subtitle {
+    text-align: center;
+
+    font-size: 27px;
+
+    font-weight: 300;
+
+    line-height: 1.6;
+
+    color: #f5f5f5;
+
+    margin-bottom: 10px;
+}
+
+
+/* ==============================
+   FORM
+============================== */
+
+#contactForm {
+    width: 100%;
+}
+
+
+/* ==============================
+   FORM GROUP
+============================== */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+/* ==============================
+   LABEL
+============================== */
+
+.form-group label {
+    display: block;
+
+    font-size: 25px;
+
+   
+
+    color: white;
+}
+
+
+/* ==============================
+   INPUT + TEXTAREA
+============================== */
+
+.form-group input,
+.form-group textarea {
+
+    width: 100%;
+
+    border: 1px solid #cfcfcf;
+
+    background: #ffffff;
+
+    color: #333;
+
+    font-size: 18px;
+
+    padding: 10px;
+
+    outline: none;
+
+    border-radius: 2px;
+
+    transition: 0.3s;
+}
+
+
+/* Input height */
+
+.form-group input {
+    height: 50px;
+}
+
+
+/* Textarea */
+
+.form-group textarea {
+    min-height: 220px;
+
+    resize: vertical;
+}
+
+
+/* ==============================
+   INPUT FOCUS
+============================== */
+
+.form-group input:focus,
+.form-group textarea:focus {
+
+    border-color: #079ee5;
+
+    box-shadow:
+        0 0 0 2px rgba(7, 158, 229, 0.25);
+
+}
+
+
+/* ==============================
+   SEND BUTTON
+============================== */
+
+.send-btn {
+
+    width: 100%;
+
+    height: 75px;
+
+    border: none;
+
+    background: #079bdc;
+
+    color: white;
+
+    font-size: 28px;
+
+    font-weight: 400;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Button hover */
+
+.send-btn:hover {
+
+    background: #078ac5;
+
+}
+
+
+/* Button click */
+
+.send-btn:active {
+
+    transform: translateY(2px);
+
+}
+
+
+/* ==============================
+   FORM MESSAGE
+============================== */
+
+#formMessage {
+
+    text-align: center;
+
+    font-size: 18px;
+
+    margin-top: 20px;
+
+    min-height: 25px;
+}
+
+
+/* ==============================
+   TABLET
+============================== */
+
+@media (max-width: 768px) {
+
+    .contact-section {
+
+        padding: 50px 25px;
+
+    }
+
+    .contact-container h1 {
+
+        font-size: 55px;
+
+    }
+
+    .subtitle {
+
+        font-size: 21px;
+
+        margin-bottom: 15px;
+
+    }
+
+    .form-group label {
+
+        font-size: 21px;
+
+    }
+
+    .form-group input {
+
+        height: 60px;
+
+    }
+
+    .send-btn {
+
+        height: 65px;
+
+        font-size: 23px;
+
+    }
+
+}
+
+
+/* ==============================
+   MOBILE
+============================== */
+
+@media (max-width: 480px) {
+
+    .contact-section {
+
+        padding: 40px 18px;
+
+    }
+
+    .contact-container h1 {
+
+        font-size: 42px;
+
+        margin-bottom: 10px;
+
+    }
+
+    .subtitle {
+
+        font-size: 17px;
+
+        line-height: 1.5;
+
+        margin-bottom: 20px;
+
+    }
+
+    .desktop-break {
+
+        display: none;
+
+    }
+
+    .form-group {
+
+        margin-bottom: 25px;
+
+    }
+
+    .form-group label {
+
+        font-size: 18px;
+
+        margin-bottom: 8px;
+
+    }
+
+    .form-group input {
+
+        height: 55px;
+
+        font-size: 16px;
+
+    }
+
+    .form-group textarea {
+
+        min-height: 170px;
+
+        font-size: 16px;
+
+    }
+
+    .send-btn {
+
+        height: 58px;
+
+        font-size: 20px;
+
+    }
+
+}
